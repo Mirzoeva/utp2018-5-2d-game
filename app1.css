@@ -1,0 +1,35 @@
+html{
+  background: #c7b39b url(1.jpg);
+  background-size: 100%;
+  overflow: auto; /* Добавляем полосы прокрутки */
+  padding-left: 15px; /* Отступ от текста слева */
+  padding: 10px;
+}
+body{
+    background: #c7b39b url(2.jpg);
+    height: 220px; /* Высота блока */
+    width: 400px;
+    background-size: 100%;
+}
+
+h1{
+  color: #FFFFFF ;
+  font-family: Courier;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  height: 200;
+}
+
+i{
+  color: #FFFFFF;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+a{
+  color: #FFFFFF;
+  text-align: center;
+}
