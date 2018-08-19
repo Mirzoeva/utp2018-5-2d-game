@@ -2,14 +2,29 @@ html{
   background: #c7b39b url(1.jpg);
   background-size: 100%;
   overflow: auto; /* Добавляем полосы прокрутки */
-  padding-left: 15px; /* Отступ от текста слева */
-  padding: 10px;
+  padding-left: 0px; /* Отступ от текста слева */
+  padding: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 100px;
+  align-content: center;
+  align-items: center;
+  align-self: center;
 }
 body{
-    background: #c7b39b url(2.jpg);
-    height: 220px; /* Высота блока */
-    width: 400px;
-    background-size: 100%;
+  align-content: center;
+  border: 2px solid black;
+  background: #c7b39b url(2.jpg);
+  height: 270px; /* Высота блока */
+  width: 400px;
+  text-align: center;
+  background-size: 100%;
+  padding-left: 0px; /* Отступ от текста слева */
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 100px;
+  padding: 10px; /* Поля вокруг текста */
+  margin: auto; /* Выравниваем по центру */
 }
 
 h1{
